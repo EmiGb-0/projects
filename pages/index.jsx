@@ -22,7 +22,7 @@ export default function Home({entradas}) {
 
 export async function getStaticProps() {
 
-  const url = `https://projects-git-main-emigb0s-projects.vercel.app
+  const url = `https://projects-sage-nine.vercel.app
 /api/projects`
   const respuesta = await fetch(url)
   const entradas = await respuesta.json()
