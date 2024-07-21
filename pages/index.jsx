@@ -22,7 +22,8 @@ export default function Home({entradas}) {
 
 export async function getStaticProps() {
 
-  const url = `${process.env.API_URL}/projects`
+  const url = `projects-git-main-emigb0s-projects.vercel.app
+/api/projects`
   const respuesta = await fetch(url)
   const entradas = await respuesta.json()
 
